@@ -1,0 +1,11 @@
+# Code Editors
+/.idea/
+/.vs/
+/.vscode/
+
+
+# MkDocs
+/site/
+
+# MacOS
+.DS_Store

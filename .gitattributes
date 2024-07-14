@@ -1,0 +1,18 @@
+# Detect the languages ​​used for documentation
+*.md    linguist-detectable=true
+*.yml   linguist-detectable=true
+
+# Manage the line endings automatically if not specified
+* text=auto
+
+# Specific properties for line ending in certain extensions
+*.jpeg          binary
+*.jpg           binary
+*.png           binary
+*.ico           binary
+*.gif           binary
+
+
+*.txt           text
+*.md            text
+*.yml           text
