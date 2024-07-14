@@ -16,3 +16,4 @@
 *.txt           text
 *.md            text
 *.yml           text
+*.drawio        text
