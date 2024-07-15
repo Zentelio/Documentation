@@ -29,25 +29,12 @@ For artificial intelligence applications, Zentelio can manage the deployment and
 **API Integration**
 In API integration, Zentelio can facilitate communication between different systems and services. For example, it can receive data from an external API, transform the data according to internal system requirements, send the transformed data to a database or another API, and manage errors and retries automatically in case of communication failures.
 
-## Trigger-Action-Connector Model 
-The trigger-action-connector is a model used to design and execute automated workflows in applications such as Zentelio. This model is based on three fundamental components: 
+## How Zentelio works
 
-**Trigger** 
+Zentelio is designed to eliminate the need for complex programming in the initial stages of a project. Although it is based on Java, its core functionality relies on Json schemas for components, Yaml for configurations and properties, and ZScript, which extends Json capabilities by enabling script execution within Json schemas.
 
-The event that initiates the workflow. Triggers can be internal (within the system) or external (events originating from other applications or services).
+Unlike traditional frameworks that are integrated directly into a project, Zentelio is installed as standalone software. It offers commands that facilitate various actions, such as generating a project, compiling it, executing workflows, and more.
 
-Example: The arrival of a new email, the creation of a file in a specific folder, the reception of a message in a message queue, among others.
+This is achieved through the ZVM, a virtual machine that encapsulates the entire Zentelio environment. The ZVM includes the ZScript interpreter, a bytecode compiler, the logic for triggers, actions, and connectors, as well as the plugin system, among other essential components.
 
-**Action**
-
-The task or set of tasks executed in response to the trigger. Actions are the operations that make changes or process data.
-
-Example: Sending an email, updating a database, calling an external API, moving a file to another location, etc.
-
-**Connector** 
-
-The intermediaries that enable communication between Zentelio and other services or applications. Connectors facilitate both the reception of events (triggers) and the execution of actions in different environments.
-
-Example: Connectors for email services, databases, web services, cloud storage, social media, etc.
-
-## ZScript Introduction
+Zentelio comes with several default triggers and connectors, such as Http Trigger, Websocket Trigger, Kafka Trigger, and Scheduler Trigger. However, if additional triggers or connectors are needed, plugins can be created in Java to integrate these new elements, making them available for use in projects.
