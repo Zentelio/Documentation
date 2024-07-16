@@ -4,7 +4,7 @@
 
 ## What is Zentelio
 Zentelio is a low-code framework designed for developing workflows in applications, services, and systems using a trigger-action-connector. 
-Although Zentelio is written in Java, it is not necessary to know this language, as Zentelio operates based on Json, Yaml, and ZScript for constructing workflows. If required, plugins can be created in Java to incorporate new elements into Zentelio.
+Although Zentelio is written in Java and Rust, it is not necessary to know this languages, as Zentelio operates based on Json, Yaml, and ZScript for constructing workflows. If required, plugins can be created in Java to incorporate new elements into Zentelio.
 
 ## Uses of Zentelio
 <img src="assets/WorkflowExample.png" alt="WorkflowExample" width="300" height="275" align="left">
@@ -31,7 +31,7 @@ In API integration, Zentelio can facilitate communication between different syst
 
 ## How Zentelio works
 
-Zentelio is designed to eliminate the need for complex programming in the initial stages of a project. Although it is based on Java, its core functionality relies on Json schemas for components, Yaml for configurations and properties, and ZScript, which extends Json capabilities by enabling script execution within Json schemas.
+Zentelio is designed to eliminate the need for complex programming in the initial stages of a project. Although it is based on Java and Rust, its core functionality relies on Json schemas for components, Yaml for configurations and properties, and ZScript, which extends Json capabilities by enabling script execution within Json schemas.
 
 Unlike traditional frameworks that are integrated directly into a project, Zentelio is installed as standalone software. It offers commands that facilitate various actions, such as generating a project, compiling it, executing workflows, and more.
 
