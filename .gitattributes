@@ -1,5 +1,6 @@
 # Detect the languages ​​used for documentation
-*.md    linguist-detectable=true
+*.md linguist-detectable=true
+*.md linguist-documentation=false
 *.yml   linguist-detectable=false
 
 # Manage the line endings automatically if not specified
